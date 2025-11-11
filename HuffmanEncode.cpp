@@ -41,7 +41,7 @@ void generateCodes(Node* root, string code, unordered_map<char, string> &huffman
 
 // Build Huffman tree
 void huffmanEncoding(unordered_map<char, int> &freq) {
-    // FIXED: vector should be lowercase, not Vector
+    
     priority_queue<Node*, vector<Node*>, Compare> pq;
 
     // Create leaf nodes
@@ -95,3 +95,4 @@ int main() {
 
     return 0;
 }
+
